@@ -1,5 +1,5 @@
 ### Using node.js base image
-FROM node:latest
+FROM node:14
 ### Defining working directory
 WORKDIR /app
 ### Using the root user to execute the container image
