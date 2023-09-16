@@ -9,11 +9,11 @@ COPY package.json /app/
 ### Installing npm for nodejs
 RUN npm Install 
 ### Copying all application files to the work directory
-COPY ./ ./
+COPY . .
 ### Exposing the port number
 EXPOSE 80
 ### Executing web application
-CMD [ ""node", /app/server.js" ]
+CMD [ "node", "/app/server.js" ]
 
 
 
